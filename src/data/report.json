@@ -1,0 +1,1801 @@
+[
+    {
+      "report": {
+        "audit_id": 20,
+        "completed": true,
+        "created_at": "2024-02-12T10:23:17.259Z",
+        "evaluated_at": "2024-02-19T13:23:00.000Z",
+        "id": 9,
+        "is_verified": true,
+        "updated_at": null,
+        "user_id": 1,
+        "score": null
+      },
+      "checklists": [
+        {
+          "answer": {},
+          "artifacts": null,
+          "audit_id": 20,
+          "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+          "id": 126,
+          "item": {
+            "id": "lsejfrbsxmw3yfmuzp",
+            "kind": "container",
+            "title": "Информация о проверке",
+            "weight": 1,
+            "control": null,
+            "enabled": true,
+            "artifacts": null,
+            "self_answered": false
+          },
+          "metric_id": null,
+          "parent_id": null,
+          "updated_at": null,
+          "children": [
+            {
+              "answer": {
+                "id": 93,
+                "files": null,
+                "value": {
+                  "name": "nyet",
+                  "label": "Нет",
+                  "point": 0,
+                  "right": false,
+                  "violation": null
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:23.485",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": [
+                  {
+                    "id": 1,
+                    "creator": {
+                      "id": 2,
+                      "name": "Заказчик",
+                      "type": "CUSTOMER"
+                    },
+                    "message": "Изменить",
+                    "user_id": 2,
+                    "answer_id": 93,
+                    "account_id": 2,
+                    "created_at": "2024-02-12T13:26:58.432853",
+                    "accepted_at": "2024-02-12T16:31:24.761",
+                    "accepter_id": 3,
+                    "is_accepted": true,
+                    "answer_changes": {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    },
+                    "accepter_account_id": 3
+                  }
+                ]
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 126,
+              "metric_id": null,
+              "item": {
+                "id": "lsejh77swh39l5kxv9p",
+                "kind": "item",
+                "title": "В каком офисе продаж была проверка?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": null,
+                "self_answered": false
+              },
+              "id": 131,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 94,
+                "files": null,
+                "value": {
+                  "name": "da",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:25.807482",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": [
+                  {
+                    "id": 2,
+                    "creator": {
+                      "id": 2,
+                      "name": "Заказчик",
+                      "type": "CUSTOMER"
+                    },
+                    "message": "спрло рпвало прловапрловаплпрвлопрвало",
+                    "user_id": 2,
+                    "answer_id": 94,
+                    "account_id": 2,
+                    "created_at": "2024-02-12T13:28:58.518276",
+                    "accepted_at": null,
+                    "accepter_id": null,
+                    "is_accepted": null,
+                    "answer_changes": {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true
+                    },
+                    "accepter_account_id": null
+                  }
+                ]
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 126,
+              "metric_id": null,
+              "item": {
+                "id": "lsejhe3ptwwngmdo9da",
+                "kind": "item",
+                "title": " Ваш номер телефона на который вам звонил менеджер или который вы предоставили при встрече",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": null,
+                "self_answered": false
+              },
+              "id": 132,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 95,
+                "files": null,
+                "value": {
+                  "name": "nyet",
+                  "label": "Нет",
+                  "point": 0,
+                  "right": false
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:27.788496",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 126,
+              "metric_id": null,
+              "item": {
+                "id": "lsejhofsia32qn46kf8",
+                "kind": "item",
+                "title": "Дата проведения встречи",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": null,
+                "self_answered": false
+              },
+              "id": 133,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 96,
+                "files": null,
+                "value": {
+                  "name": "da",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:29.871473",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 126,
+              "metric_id": null,
+              "item": {
+                "id": "lsejia58bxj9dxqu4i7",
+                "kind": "item",
+                "title": "Время начала встречи (когда вы зашли в офис продаж)",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": null,
+                "self_answered": false
+              },
+              "id": 134,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 97,
+                "files": null,
+                "value": {
+                  "name": "da",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:38.96839",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 126,
+              "metric_id": null,
+              "item": {
+                "id": "lsejigdjxmkigs5zd6",
+                "kind": "item",
+                "title": "Имя и фамилия менеджера, проводившего показ",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": null,
+                "self_answered": false
+              },
+              "id": 135,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 98,
+                "files": null,
+                "value": {
+                  "name": "nyet",
+                  "label": "Нет",
+                  "point": 0,
+                  "right": false
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:40.66554",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 126,
+              "metric_id": null,
+              "item": {
+                "id": "lsejiozytpr5vpncx0l",
+                "kind": "item",
+                "title": "Опишите кратко вашу легенду (мотив). Для какой цели покупаете квартиру?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": null,
+                "self_answered": false
+              },
+              "id": 136,
+              "children": []
+            }
+          ]
+        },
+        {
+          "answer": {},
+          "artifacts": null,
+          "audit_id": 20,
+          "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+          "id": 127,
+          "item": {
+            "id": "lsenn03d6lgac7wkqmv",
+            "kind": "container",
+            "title": "Оценка работы колл-центра",
+            "weight": 1,
+            "control": null,
+            "enabled": true,
+            "artifacts": null,
+            "self_answered": false
+          },
+          "metric_id": null,
+          "parent_id": null,
+          "updated_at": null,
+          "children": [
+            {
+              "answer": {
+                "id": 99,
+                "files": null,
+                "value": {
+                  "name": "da",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:42.52301",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 127,
+              "metric_id": null,
+              "item": {
+                "id": "lsenn7mpr5a6jrxfgia",
+                "kind": "item",
+                "title": "Если заявка была отправлена через сайт, через сколько Вам перезвонили? Укажите точное время отправки заявки и через сколько Вам перезвонили.",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": null,
+                "self_answered": false
+              },
+              "id": 137,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 100,
+                "files": null,
+                "value": {
+                  "name": "da",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:45.029224",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 127,
+              "metric_id": null,
+              "item": {
+                "id": "lsennaqtv6w0yv94tbs",
+                "kind": "item",
+                "title": "Если заявка была по телефону, через сколько Вам ответили? Если время ответа меньше минуты, то укажите в секундах.",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": null,
+                "self_answered": false
+              },
+              "id": 138,
+              "children": []
+            }
+          ]
+        },
+        {
+          "answer": {},
+          "artifacts": null,
+          "audit_id": 20,
+          "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+          "id": 128,
+          "item": {
+            "id": "lseno1zj4eu6xjjgse3",
+            "kind": "container",
+            "title": "БЛОК I: Офис-менеджер",
+            "weight": 1,
+            "control": null,
+            "enabled": true,
+            "artifacts": null,
+            "self_answered": false
+          },
+          "metric_id": null,
+          "parent_id": null,
+          "updated_at": null,
+          "children": [
+            {
+              "answer": {
+                "id": 101,
+                "files": null,
+                "value": {
+                  "name": "da",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:47.342823",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 128,
+              "metric_id": null,
+              "item": {
+                "id": "lsenoyrwdjmors6etnu",
+                "kind": "item",
+                "title": "В офисе продаж присутствует стойка ресепшен?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": null,
+                "self_answered": false
+              },
+              "id": 139,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 102,
+                "files": null,
+                "value": {
+                  "name": "nyet",
+                  "label": "Нет",
+                  "point": 0,
+                  "right": false
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:49.626264",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 128,
+              "metric_id": null,
+              "item": {
+                "id": "lsenpa3pw78l2f4mcpg",
+                "kind": "item",
+                "title": "Находился ли офис-менеджер за стойкой ресепшен?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": null,
+                "self_answered": false
+              },
+              "id": 140,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 103,
+                "files": null,
+                "value": {
+                  "name": "lsenpsjhy4euh702ds",
+                  "label": "Нет",
+                  "point": 0,
+                  "right": false
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:51.558289",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 128,
+              "metric_id": null,
+              "item": {
+                "id": "lsenpsjhec6bn5m7k4o",
+                "kind": "item",
+                "title": "Офис-менеджер был одет в соответствии с действующими стандартами внешнего вида?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsenpsjhsnmbi99px3",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsenpsjhy4euh702ds",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 141,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 104,
+                "files": null,
+                "value": {
+                  "name": "lsenq10jfm9coet8zy",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:53.650374",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 128,
+              "metric_id": null,
+              "item": {
+                "id": "lsenq10juqyuseqia6",
+                "kind": "item",
+                "title": "Опрятность внешнего вида офис-менеджера (прическа, макияж, чистота одежды, поглажена ли одежда, чистота обуви)",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsenq10jfm9coet8zy",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsenq10jw92pq02l4b",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 142,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 105,
+                "files": null,
+                "value": {
+                  "name": "lsenq9avuuself0ryjf",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:55.411029",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 128,
+              "metric_id": null,
+              "item": {
+                "id": "lsenq9avdcj2eylhjco",
+                "kind": "item",
+                "title": "У офис-менеджера на одежде располагался хорошо читаемый бейдж?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsenq9avuuself0ryjf",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsenq9av81psu1leajb",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 143,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 106,
+                "files": null,
+                "value": {
+                  "name": "lsenqjz6xrdlydxvslg",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:23:57.86666",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 128,
+              "metric_id": null,
+              "item": {
+                "id": "lsenqjz6axcnyzis79s",
+                "kind": "item",
+                "title": "Офис-менеджер поприветствовал Вас?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsenqjz6xrdlydxvslg",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsenqjz6mtmc0dyitk",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 144,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 107,
+                "files": null,
+                "value": {
+                  "name": "lsenqstb47cm6xo6q4o",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:00.407287",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 128,
+              "metric_id": null,
+              "item": {
+                "id": "lsenqstbbot56p617rh",
+                "kind": "item",
+                "title": "Офис-менеджер прояснил цель визита, уточнил, общались ли вы с кем-то ранее и предложил пригласить сотрудника?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsenqstb47cm6xo6q4o",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsenqstb3lvliie71ek",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 145,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 108,
+                "files": null,
+                "value": {
+                  "name": "lsenr5ilbxjemvj66hj",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:02.581309",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 128,
+              "metric_id": null,
+              "item": {
+                "id": "lsenr5iltnxdvczex9k",
+                "kind": "item",
+                "title": "Офис-менеджер был доброжелателен и вежлив (улыбка, тон, внимание, перебивал ли, торопился ли). Оцените от 0 до 5",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsenr5ilbxjemvj66hj",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsenr5ilqw2937il8xl",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 146,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 109,
+                "files": null,
+                "value": {
+                  "name": "lsenrdgxz93r8jksm1k",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:04.490446",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 128,
+              "metric_id": null,
+              "item": {
+                "id": "lsenrdgxarya30e3db",
+                "kind": "item",
+                "title": "Что Вам особенно понравилось в ходе визита (отношение сотрудника, обстановка в офисе, ассортимент и т.д.)",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsenrdgxz93r8jksm1k",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsenrdgxgd361duflph",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 147,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 110,
+                "files": null,
+                "value": {
+                  "name": "lsenrlhi2ocw61r17ps",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:06.492504",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 128,
+              "metric_id": null,
+              "item": {
+                "id": "lsenrlhi5a3dusc8u12",
+                "kind": "item",
+                "title": "Что Вам особенно НЕ понравилось ходе визита (отношение сотрудника, обстановка в офисе, ассортимент и т.д.)",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsenrlhi2ocw61r17ps",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsenrlhiyc8hzrmfrls",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 148,
+              "children": []
+            }
+          ]
+        },
+        {
+          "answer": {},
+          "artifacts": null,
+          "audit_id": 20,
+          "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+          "id": 129,
+          "item": {
+            "id": "lsens0c9ng5qmy5duy",
+            "kind": "container",
+            "title": "БЛОК II: Состояние парковки, помещения, оборудования",
+            "weight": 1,
+            "control": null,
+            "enabled": true,
+            "artifacts": null,
+            "self_answered": false
+          },
+          "metric_id": null,
+          "parent_id": null,
+          "updated_at": null,
+          "children": [
+            {
+              "answer": {
+                "id": 111,
+                "files": null,
+                "value": {
+                  "name": "da",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:19.463547",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 129,
+              "metric_id": null,
+              "item": {
+                "id": "lsenskpfme7cpx0kpg",
+                "kind": "item",
+                "title": "Рядом со зданием есть парковочные места?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "da",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "nyet",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": null,
+                "self_answered": false
+              },
+              "id": 149,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 112,
+                "files": null,
+                "value": {
+                  "name": "lsenst9rgjqyxan6k",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:25.529483",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 129,
+              "metric_id": null,
+              "item": {
+                "id": "lsenst9r1n3rifzq0x1",
+                "kind": "item",
+                "title": "В помещении чисто, отсутствует мусор, пыль, разводы и т.д",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsenst9rgjqyxan6k",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsenst9r7k7w643ekgd",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 150,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 113,
+                "files": null,
+                "value": {
+                  "name": "lsenss8lhfzvpipgohj",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:28.033712",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 129,
+              "metric_id": null,
+              "item": {
+                "id": "lsenss8lh8faaonwix",
+                "kind": "item",
+                "title": "В переговорной чисто, отсутствуют посторонние предметы, включен телевизор.",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsenss8lhfzvpipgohj",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsenss8lpnj032a93",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 151,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 114,
+                "files": null,
+                "value": {
+                  "name": "lsensq1q28q7q7pw9ho",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:30.146432",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 129,
+              "metric_id": null,
+              "item": {
+                "id": "lsensq1qr5d8x7t17di",
+                "kind": "item",
+                "title": "В с\\у чисто, есть т\\бумага, мыло д\\рук , салфетки д\\рук, мусорная корзина не переполнена, есть ли освежитель воздуха. (Оцените по шкале от 0 до 5)",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsensq1q28q7q7pw9ho",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsensq1qllldhyvrb7",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 152,
+              "children": []
+            }
+          ]
+        },
+        {
+          "answer": {},
+          "artifacts": null,
+          "audit_id": 20,
+          "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+          "id": 130,
+          "item": {
+            "id": "lsentjbxq66sefotbjc",
+            "kind": "container",
+            "title": "БЛОК III: Приветствие\\встреча",
+            "weight": 1,
+            "control": null,
+            "enabled": true,
+            "artifacts": null,
+            "self_answered": false
+          },
+          "metric_id": null,
+          "parent_id": null,
+          "updated_at": null,
+          "children": [
+            {
+              "answer": {
+                "id": 115,
+                "files": null,
+                "value": {
+                  "name": "lsentuk53wjfevm9rxw",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:32.387966",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 130,
+              "metric_id": null,
+              "item": {
+                "id": "lsentuk571ckbgwg4vt",
+                "kind": "item",
+                "title": "Менеджер сразу подошел к вам или вы ожидали более 5 мин",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsentuk53wjfevm9rxw",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsentuk5mulrj7ke4gm",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 153,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 116,
+                "files": null,
+                "value": {
+                  "name": "lsenttnytn6gtkk2nwi",
+                  "label": "Нет",
+                  "point": 0,
+                  "right": false
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:34.424865",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 130,
+              "metric_id": null,
+              "item": {
+                "id": "lsenttnyj18e0qys05g",
+                "kind": "item",
+                "title": "Менеджер назвал свое имя при приветствии?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsenttny69g9wu6p2ke",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsenttnytn6gtkk2nwi",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 154,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 117,
+                "files": null,
+                "value": {
+                  "name": "lsentsrejg05rbu5yo",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:36.158518",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 130,
+              "metric_id": null,
+              "item": {
+                "id": "lsentsrer80brepciv",
+                "kind": "item",
+                "title": "Менеджер узнал ваше имя при приветствии или сразу обратился к вам?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsentsrejg05rbu5yo",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsentsreyr4lctt9ws8",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 155,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 118,
+                "files": null,
+                "value": {
+                  "name": "lsentrsoa3ahxspk9ap",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:38.129668",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 130,
+              "metric_id": null,
+              "item": {
+                "id": "lsentrsoork3gyt5mgn",
+                "kind": "item",
+                "title": "Менеджер предложил чай\\кофе. Прокомментировать сервировку. (Если до этого предложил офис-менеджер, то засчитывается автоматически)",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsentrsoa3ahxspk9ap",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsentrsotuhnfvkdm4a",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 156,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 119,
+                "files": null,
+                "value": {
+                  "name": "lsentqx0hq06db0ow6j",
+                  "label": "Нет",
+                  "point": 0,
+                  "right": false
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:39.774862",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 130,
+              "metric_id": null,
+              "item": {
+                "id": "lsentqx0iewasktggs",
+                "kind": "item",
+                "title": "Менеджер был одет в офисном стиле (белый верх\\темный низ)?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsentqx03sopr71vi5q",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsentqx0hq06db0ow6j",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 157,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 120,
+                "files": null,
+                "value": {
+                  "name": "lsentpxup8r04hez348",
+                  "label": "Нет",
+                  "point": 0,
+                  "right": false
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:41.472487",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 130,
+              "metric_id": null,
+              "item": {
+                "id": "lsentpxuuly5il5sj8o",
+                "kind": "item",
+                "title": "У менеджера на одежде располагался хорошо читаемый бейдж?",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsentpxuk3k0of8qyx",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsentpxup8r04hez348",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 158,
+              "children": []
+            },
+            {
+              "answer": {
+                "id": 121,
+                "files": null,
+                "value": {
+                  "name": "lsentoqa7zgij7mzc69",
+                  "label": "Да",
+                  "point": 1,
+                  "right": true
+                },
+                "comment": "",
+                "message": null,
+                "accepted": true,
+                "report_id": 9,
+                "created_at": "2024-02-12T13:24:43.309921",
+                "updated_at": null,
+                "attachments": [],
+                "discussions": null
+              },
+              "artifacts": null,
+              "audit_id": 20,
+              "checklist_name": "​Офис продаж DOGMA ЖК Парк Победы 2",
+              "updated_at": null,
+              "parent_id": 130,
+              "metric_id": null,
+              "item": {
+                "id": "lsentoqaqxoc1vg4ajh",
+                "kind": "item",
+                "title": "Опрятность внешнего вида менеджера (прическа, макияж, чистота одежды, поглажена ли одежда, чистота обуви)",
+                "weight": 1,
+                "control": {
+                  "type": "radiogroup",
+                  "options": [
+                    {
+                      "name": "lsentoqa7zgij7mzc69",
+                      "label": "Да",
+                      "point": 1,
+                      "right": true,
+                      "violation": null
+                    },
+                    {
+                      "name": "lsentoqaczm1hrbjuwv",
+                      "label": "Нет",
+                      "point": 0,
+                      "right": false,
+                      "violation": null
+                    }
+                  ]
+                },
+                "enabled": true,
+                "artifacts": [],
+                "self_answered": false
+              },
+              "id": 159,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
