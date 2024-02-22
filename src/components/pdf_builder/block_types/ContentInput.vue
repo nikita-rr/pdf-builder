@@ -11,10 +11,16 @@ import { ref } from 'vue'
 const props = defineProps<{ modelValue: string }>()
 const emit = defineEmits(['update:modelValue'])
 const builderStore = useBuilderStore();
-const contentInput = ref<HTMLDivElement>()
+const contentinput = ref<HTMLDivElement>()
 
-function updateModel(e: Event) {
-    emit('update:modelValue', contentInput.value?.innerHTML)
+function updateModel(e: any) {
+    console.log(contentinput.value);
+    
+    if(typeof e === 'object') {
+        emit('update:modelValue', contentinput.value?.innerHTML.toString())
+    } else {
+        emit('update:modelValue', e)
+    }
 }
 
 const setInputTarget = (e: any) => {
