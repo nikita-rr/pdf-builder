@@ -1,21 +1,20 @@
 <template>
-    <div class="pdf-builder__content-input" contenteditable="true" @click="setInputTarget" v-html="props.modelValue"
-        @input="updateModel">
+    <div ref="contentinput" class="pdf-builder__content-input" contenteditable="true" @click="setInputTarget"
+        v-html="props.modelValue" @input="updateModel">
     </div>
 </template>
 
 <script setup lang="ts">
 import { useBuilderStore } from "@/store/builder";
+import { ref } from 'vue'
 
 const props = defineProps<{ modelValue: string }>()
 const emit = defineEmits(['update:modelValue'])
 const builderStore = useBuilderStore();
-
+const contentInput = ref<HTMLDivElement>()
 
 function updateModel(e: Event) {
-    if(typeof e !== 'object') {
-        emit('update:modelValue', e)
-    }
+    emit('update:modelValue', contentInput.value?.innerHTML)
 }
 
 const setInputTarget = (e: any) => {

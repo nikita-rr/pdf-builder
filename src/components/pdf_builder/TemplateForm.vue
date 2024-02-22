@@ -1,7 +1,10 @@
 <template>
-    <div class="pdf-builder__template-form">
-        <div v-for="(item, key) in builderStore.body" :key="key">
-            <TitleForm v-if="item.type === TemplateItemType.TITLE" :item-data="item" />
+    <div>
+        <div class="pdf-builder__template-form">
+            <div v-for="(item, key) in builderStore.body" :key="key">
+                <TitleForm v-if="item.type === TemplateItemType.TITLE" :item-data="item" />
+            </div>
+            <pre v-text="builderStore.body"></pre>
         </div>
     </div>
 </template>
